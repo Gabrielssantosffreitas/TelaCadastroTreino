@@ -8,6 +8,7 @@ public class Conexao {
     private  static  final  String URL = "jdbc:mysql://localhost:3306/estudante";
     private static final  String USUARIO = "root";
     private static final  String SENHA = "140827gdJ@";
+
     public static void fecharConexao(Connection connection){
         try {
             if (connection != null && !connection.isClosed());
